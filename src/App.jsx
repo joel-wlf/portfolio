@@ -7,7 +7,7 @@ import { useState } from 'react'
 function App() {
 
   const [blobColor, setBlobColor] = useState({
-    firstColor: "rgba(143, 0, 255, 0.30)",
+    firstColor: "rgba(143, 0, 255, 0.223)",
     secondColor: "rgba(255, 0, 200, 0.233)"
   })
 
@@ -15,7 +15,7 @@ function App() {
     <>
       <Blob firstColor={blobColor.firstColor} secondColor={blobColor.secondColor} />
       <Navbar />
-      <Hero />
+      <Hero onHover={setBlobColor}/>
     </>
   )
 }
