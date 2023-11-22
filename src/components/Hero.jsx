@@ -5,11 +5,11 @@ function Hero(props) {
     function handleHover(e) {
         let name = e.target.name
         if (name == "vite") {
-            props.onHover({firstColor: 'rgba(143, 0, 255, 0.223)' , secondColor: 'rgba(255, 0, 200, 0.233)'})
+            props.onHover({firstColor: 'rgba(143, 0, 255, 0.3)' , secondColor: 'rgba(255, 0, 200, 0.3)'})
         } else if (name == "css") {
-            props.onHover({firstColor: 'rgba(3, 82, 252, 0.233)', secondColor: 'rgba(3, 82, 15, 0.233)'})
+            props.onHover({firstColor: 'rgba(3, 82, 252, 0.5)', secondColor: 'rgba(3, 82, 15, 0.5)'})
         } else if (name == "react") {
-            props.onHover({firstColor: 'rgba(3, 173, 252, 0.233)', secondColor: 'rgba(3, 119, 252, 0.233)'})
+            props.onHover({firstColor: 'rgba(3, 173, 252, 0.3)', secondColor: 'rgba(3, 119, 252, 0.3)'})
         } else if (name == "html") {
             props.onHover({firstColor: 'rgba(252, 65, 3, 0.233)', secondColor: 'rgba(252, 95, 3, 0.233)'})
         } else if (name == "js") {

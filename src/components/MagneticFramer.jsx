@@ -52,7 +52,7 @@ export default function Framer({children}) {
 
             animate={{x, y}}
 
-            transition={{type: "spring", stiffness: 150, damping: 10, mass: 0.1}}
+            transition={{type: "spring", stiffness: 200, damping: 30, mass: 0.1}}
 
         >
 

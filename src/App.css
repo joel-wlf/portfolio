@@ -85,7 +85,14 @@ body {
 
 .hero--skills--grid img {
   transform: rotate(15deg);
-  width: 110px;
+  width: 120px;
+  filter: drop-shadow(10px 15px 5px rgba(0,0,0,0.1));
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+.about {
+  text-align: center;
 }
 
 @keyframes rotate {
