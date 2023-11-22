@@ -10,7 +10,7 @@ body {
   box-sizing: border-box;
   background-color: #000;
   font-family: 'Inter', sans-serif;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .navbar {
@@ -92,7 +92,21 @@ body {
 }
 
 .about {
+  margin-top: 2vh;
   text-align: center;
+  height: 100vh;
+}
+
+.about--title {
+  color: rgba(194, 194, 194, 0.36);
+  text-align: center;
+  font-family: Inter, sans-serif;
+  font-size: 52px;
+  font-weight: 600;
+  line-height: 102.523%;
+  letter-spacing: 2.07px;
+  text-decoration-line: underline;
+  text-underline-offset: 7px;
 }
 
 @keyframes rotate {
