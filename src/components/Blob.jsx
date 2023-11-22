@@ -8,8 +8,8 @@ function Blob(props) {
     const follower = followerRef.current;
 
     const onMouseMove = (e) => {
-      const mouseX = e.clientX - follower.offsetWidth / 2;
-      const mouseY = e.clientY - follower.offsetHeight / 2;
+      const mouseX = e.pageX - follower.offsetWidth / 2;
+      const mouseY = e.pageY - follower.offsetHeight / 2;
 
       gsap.to(follower, {
         x: mouseX,
