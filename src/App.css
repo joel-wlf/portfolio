@@ -109,6 +109,36 @@ body {
   text-underline-offset: 7px;
 }
 
+.about--facts {
+  margin-top: 7vh;
+  display: flex;
+  padding-inline: 10vw;
+  flex-direction: column;
+}
+
+.factscard {
+  width: 40vw;
+  border-radius: 25px;
+  margin-block: 4vh;
+  border: 1px solid rgba(34, 34, 34, 0.205);
+  background: linear-gradient(90deg, rgba(217, 217, 217, 0.09) 0%, rgba(217, 217, 217, 0.04) 100%);
+  box-shadow: 7px 7px 25px 5px rgba(0, 0, 0, 0.10);
+  backdrop-filter: blur(30px);
+  color: rgba(255, 255, 255, 0.36);
+  font-family: Inter;
+  font-size: 21px;
+  padding: 1.5em;
+  font-weight: 400;
+  line-height: 102.523%;
+  letter-spacing: 0.93px;
+  text-align: left;
+}
+
+.factscard:nth-child(even) {
+  align-self: flex-end;
+  background: linear-gradient(90deg, rgba(217, 217, 217, 0.04) 0%, rgba(217, 217, 217, 0.09) 100%);
+}
+
 @keyframes rotate {
   from {
     scale: 1 1.3;
