@@ -9,7 +9,7 @@ function Hero(props) {
         } else if (name == "css") {
             props.onHover({firstColor: 'rgba(3, 82, 252, 0.5)', secondColor: 'rgba(3, 82, 15, 0.5)'})
         } else if (name == "react") {
-            props.onHover({firstColor: 'rgba(3, 173, 252, 0.3)', secondColor: 'rgba(3, 119, 252, 0.3)'})
+            props.onHover({firstColor: 'rgba(3, 173, 252, 0.3)', secondColor: 'rgba(3, 119, 252, 0.3                                                                                                                                                                                                                                                                                                        )'})
         } else if (name == "html") {
             props.onHover({firstColor: 'rgba(252, 65, 3, 0.233)', secondColor: 'rgba(252, 95, 3, 0.233)'})
         } else if (name == "js") {
@@ -35,7 +35,7 @@ function Hero(props) {
                 <div className="hero--skills--grid">
                     <MagneticFramer>
                         <img name="vite" src="./vite.svg" onMouseOver={handleHover} onMouseLeave={resetHover} />
-                    </MagneticFramer>
+                    </MagneticFramer>                                                                                                                                                                                                                                         
                         <p></p>
                     <MagneticFramer>
                         <img name="css" src="./css.png" onMouseOver={handleHover} onMouseLeave={resetHover} />
