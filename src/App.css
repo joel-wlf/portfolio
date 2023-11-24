@@ -110,22 +110,22 @@ body {
 }
 
 .about--facts {
-  margin-top: 7vh;
-  display: flex;
-  padding-inline: 10vw;
-  flex-direction: column;
+  margin-top: 9vh;
+  padding-inline: 15vw;
+  display: grid; 
+  justify-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 6vh;
 }
 
 .factscard {
-  width: 40vw;
+  width: 30vw;
   border-radius: 25px;
-  margin-block: 4vh;
   border: 1px solid rgba(34, 34, 34, 0.205);
   background: linear-gradient(90deg, rgba(217, 217, 217, 0.09) 0%, rgba(217, 217, 217, 0.04) 100%);
   box-shadow: 7px 7px 25px 5px rgba(0, 0, 0, 0.10);
   backdrop-filter: blur(30px);
   color: rgba(255, 255, 255, 0.36);
-  font-family: Inter;
   font-size: 21px;
   padding: 1.5em;
   font-weight: 400;
@@ -137,6 +137,13 @@ body {
 .factscard:nth-child(even) {
   align-self: flex-end;
   background: linear-gradient(90deg, rgba(217, 217, 217, 0.04) 0%, rgba(217, 217, 217, 0.09) 100%);
+  grid-column: span 2;
+  grid-row: auto;
+}
+
+.factscard:nth-child(odd) {
+  grid-column: 2 / 4  ;
+  grid-row: span 2;
 }
 
 @keyframes rotate {
