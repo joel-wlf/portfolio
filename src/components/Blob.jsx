@@ -14,7 +14,7 @@ function Blob(props) {
       gsap.to(follower, {
         x: mouseX,
         y: mouseY,
-        duration: 5,
+        duration: 4,
         ease: 'power2.out'
       });
     };
