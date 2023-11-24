@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Blob from './components/Blob'
 import Hero from './components/Hero'
 import About from './components/About'
+import Projects from './components/Projects'
 import { useState } from 'react'
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Navbar />
       <Hero onHover={setBlobColor}/>
       <About />
+      <Projects />
     </>
   )
 }
