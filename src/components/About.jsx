@@ -2,7 +2,7 @@ import FactsCards from "./FactsCards"
 
 function About() {
 
-    const facts = ['Location 🡢 Germany', 'Fact 2', 'Fact 3']
+    const facts = ['Location 🡢 Germany', 'Fact 2', 'Fact 3', 'Fact 4']
 
     const factsCards = facts.map(fact => <FactsCards key={fact} text={fact} />)
 

@@ -111,15 +111,14 @@ body {
 
 .about--facts {
   margin-top: 9vh;
-  padding-inline: 15vw;
+  padding-inline: 25vw;
   display: grid; 
-  justify-items: center;
   grid-template-columns: repeat(3, 1fr);
   row-gap: 6vh;
 }
 
 .factscard {
-  width: 30vw;
+  width: 90%;
   border-radius: 25px;
   border: 1px solid rgba(34, 34, 34, 0.205);
   background: linear-gradient(90deg, rgba(217, 217, 217, 0.09) 0%, rgba(217, 217, 217, 0.04) 100%);
