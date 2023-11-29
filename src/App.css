@@ -92,7 +92,7 @@ body {
 }
 
 .about {
-  margin-top: 2vh;
+  margin-block: 2vh;
   text-align: center;
   height: 100vh;
 }
@@ -110,8 +110,7 @@ body {
 }
 
 .about--facts {
-  margin-block: 9vh;
-  padding-inline: 25vw;
+  padding: 9vh 25vw;
   display: grid; 
   grid-template-columns: repeat(3, 1fr);
   row-gap: 6vh;
@@ -143,6 +142,10 @@ body {
 .factscard:nth-child(odd) {
   grid-column: 2 / 4  ;
   grid-row: span 2;
+}
+
+.projects {
+  height: 20vh;
 }
 
 @keyframes rotate {
