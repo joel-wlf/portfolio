@@ -48,6 +48,13 @@ body {
   transition: 1s background-color ease;
 }
 
+.blob-container {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
 .hero {
   height: 75vh;
   display: flex;

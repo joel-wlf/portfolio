@@ -15,7 +15,9 @@ function App() {
 
   return (
     <>
-      <Blob firstColor={blobColor.firstColor} secondColor={blobColor.secondColor} />
+      <div className="blob-container">
+        <Blob firstColor={blobColor.firstColor} secondColor={blobColor.secondColor} />
+      </div>
       <Navbar />
       <Hero onHover={setBlobColor}/>
       <About />
