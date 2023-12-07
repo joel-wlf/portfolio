@@ -1,10 +1,8 @@
 import FactsCards from "./FactsCards" 
 
-function About() {
+function About({data}) { 
 
-    const facts = ['Fact 1', 'Fact 2', 'Fact 3', 'Fact 4', 'Fact 5']
-
-    const factsCards = facts.map(fact => <FactsCards key={fact} text={fact} />)
+    const factsCards = data.map(item => <FactsCards key={item.id} text={item.text} />)
 
     return (
         <section className="about">
